@@ -13,32 +13,22 @@ public class Table {
 	 * Table Number uniquely defines the table 
 	 */
 	private  int tableNumber ;
-	private  List<Visitor> vistors ; 
+	private  List<Visitor> vistors ;
 	/**
 	 * capacity defines the number of people can sit on table
 	 */
 	private  final int  capacity ;
 	
-	public Table(int capacity){
+	public Table(int capacity,int tableNumber){
 		this.capacity=capacity;
+		this.tableNumber=tableNumber;
 	}
 	
 	
 	public int getCapacity() {
 		return capacity;
 	}
-	@Override
-	public boolean equals(Object obj) {
-		if(((Table) obj).tableNumber==this.tableNumber){
-			return true;
-		}else 
-			return false;
-	}
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		return tableNumber;
-	}
+	
 	public void  addVistors(List<Visitor> vistors) throws Exception{
 		if(this.vistors.size()==capacity){
 			throw new Exception("Table Capacity Full");
@@ -48,4 +38,19 @@ public class Table {
 		this.addVistors(vistors);
 		
 	}
+
+
+	public int getTableNumber() {
+		return tableNumber;
+	}
+
+
+	public List<Visitor> getVistors() {
+		return vistors;
+	}
+
+
+	
+	
+	
 }

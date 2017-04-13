@@ -25,6 +25,14 @@
 			<scope>test</scope>
 		</dependency>
     
+    <dependency>
+    	<groupId>com.fasterxml.jackson.module</groupId>
+    	<artifactId>jackson-module-jsonSchema</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.hazelcast</groupId>
+    	<artifactId>hazelcast</artifactId>
+    </dependency>
 </dependencies>
 	<properties>
 		<junit.version>4.12</junit.version>
