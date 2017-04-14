@@ -1,13 +1,13 @@
-package com.test.service;
+package com.rms.service;
 
 import java.util.Date;
 import java.util.List;
 
-import com.test.data.dao.DaoUtil;
-import com.test.model.Booking;
-import com.test.model.TimeSlot;
-import com.test.model.Visitor;
-import com.test.service.Restaurent;
+import com.rms.data.dao.DaoUtil;
+import com.rms.model.Booking;
+import com.rms.model.TimeSlot;
+import com.rms.model.Visitor;
+import com.rms.service.Restaurent;
 /**
  * 
  * @author Neeraj Jain

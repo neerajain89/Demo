@@ -1,4 +1,4 @@
-package com.test.model;
+package com.rms.model;
 
 public class Visitor {
 

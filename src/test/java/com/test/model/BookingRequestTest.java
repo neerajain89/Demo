@@ -13,8 +13,5 @@ public class BookingRequestTest {
 		
 	}
 	
-	public void check_IfGetExceptionIfTableCapacityFull() throws Exception{
 	
-		
-	}
 }

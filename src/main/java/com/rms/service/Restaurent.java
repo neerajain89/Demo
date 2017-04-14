@@ -1,4 +1,4 @@
-package com.test.service;
+package com.rms.service;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import com.test.model.Table;
-import com.test.model.TimeSlot;
-import com.test.model.Visitor;
+import com.rms.model.Table;
+import com.rms.model.TimeSlot;
+import com.rms.model.Visitor;
 
 /**
  * 

@@ -6,6 +6,8 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.rms.model.Table;
+import com.rms.model.Visitor;
 
 import junit.framework.Assert;
 

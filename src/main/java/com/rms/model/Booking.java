@@ -1,4 +1,4 @@
-package com.test.model;
+package com.rms.model;
 
 import java.util.List;
 

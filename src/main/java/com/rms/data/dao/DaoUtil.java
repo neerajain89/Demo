@@ -1,12 +1,12 @@
-package com.test.data.dao;
+package com.rms.data.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.test.model.Table;
-import com.test.service.Restaurent;
+import com.rms.model.Table;
+import com.rms.service.Restaurent;
 /**
  * Just TO Avoid Complexity with Database Interaction 
  * Have created This class to Populate the data as class loads 
