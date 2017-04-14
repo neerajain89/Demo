@@ -2,7 +2,11 @@ package com.test.model;
 
 import java.util.List;
 
-
+/**
+ * 
+ * @author stpl
+ *
+ */
 
 public interface  Booking {
 
